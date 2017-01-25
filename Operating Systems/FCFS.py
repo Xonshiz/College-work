@@ -2,7 +2,7 @@
 """
 Author : Dhruv Kanojia (Xonshiz)
 First Come, First Serve Scheduling Implementation in Python.
-Should run on both, Python 2 and Python 3.
+Support for Python 3 only.
 """
 
 def main():
