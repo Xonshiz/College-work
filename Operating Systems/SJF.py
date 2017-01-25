@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 """
 Author : Dhruv Kanojia (Xonshiz)
-First Come, First Serve Scheduling Implementation in Python.
+Shortest Job First Implementation in Python.
 Support for Python 3 only.
 """
 from sys import exit
