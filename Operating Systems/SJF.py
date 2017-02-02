@@ -32,7 +32,6 @@ def main():
         burst_time.sort()
 
     for i in range(int(total_processes)):
-
         if i == 0:
             waiting_time.insert(0, 0)
         waitingCalculator = int(burst_time[i]) + int(waiting_time[i])

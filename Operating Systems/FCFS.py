@@ -26,7 +26,6 @@ def main():
             turn_around.insert(i, turnaroundCalculator)
         waiting_time.pop()
         print("Process Name\t| Burst Time\t| Waiting Time\t| Turn Around Time")
-        caption_list = ['Process Name', 'Burst Time', 'Waiting Time', 'Turn Around Time']
         print('-'*60)
 
         for x, y, z, k in zip(process_que, burst_time, waiting_time, turn_around):
